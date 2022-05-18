@@ -3,7 +3,7 @@
 /* v0.1.0, 18.05.2022, TF */
 
 /* This css is split up from VistronMarkdown.css to use in vs codes Preview, since it is better to not include themes into the preview */
-var {
+variable {
     color: purple;
 }
 
@@ -13,4 +13,8 @@ indent {
 
 remark {
     color: orange;
+}
+
+directory {
+    color: beige;
 }
