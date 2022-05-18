@@ -1,7 +1,12 @@
-## Welcome to GitHub Pages
+# Vistron.PublicResources
+this site is hosted via GithubPages and contains public resources for use at Vistron.
 
-[Test css](bootstrap.min.css)
-[VistronMarkdown.css](VistronMarkdown.css)
+## Markdown
+Link to a working [VistronMarkdown.css](../VistronMarkdown.css) used for markdown documents at Vistron.<br/>
+Secondary Link to [VistronMarkdown.css](VistronMarkdown.css).
+
+
+## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/vistron-gmbh/Vistron.PublicResources/edit/GithubPages/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
