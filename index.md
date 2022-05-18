@@ -1,11 +1,12 @@
 # Vistron.PublicResources
-this site is hosted via GithubPages and contains public resources for use at Vistron.
+Public available resources of Vistron.<br/><br/>
+This site is hosted via GithubPages and contains public resources for use at Vistron.
+The index.md replaces the README.md for this repository.
 
 ## Markdown
-Link to a working [VistronMarkdown.css](../VistronMarkdown.css) used for markdown documents at Vistron.<br/>
-Secondary Link to [VistronMarkdown.css](VistronMarkdown.css).
+Link to a working [VistronMarkdown.css](VistronMarkdown.css) used for markdown documents at Vistron.<br/>
 
-
+# GitHub Pages basics
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/vistron-gmbh/Vistron.PublicResources/edit/GithubPages/docs/index.md) to maintain and preview the content for your website in Markdown files.
