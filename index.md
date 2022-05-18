@@ -6,7 +6,13 @@ The index.md replaces the README.md for this repository.
 ## Markdown
 Source of Github themed markdown .css can be found at https://github.com/sindresorhus/github-markdown-css.<br/><br/>
 
-Link to a working [VistronMarkdown.css](VistronMarkdown.css) used for markdown documents at Vistron.<br/>
+[VistronMarkdownCore.css](VistronMarkdownCore.css) contains the raw vistron only styles and html tags without a theme.<br/>
+Use VistronMarkdownCore.css as style source for vs code markdown preview.
+
+[VistronMarkdown.css](VistronMarkdown.css) contains VistronMarkdownCore.css as well as the Github Dark theme.<br/>
+Use VistronMarkdown.css as style source for converting markdown to html, pdf ...
+
+
 
 # GitHub Pages basics
 ## Welcome to GitHub Pages
