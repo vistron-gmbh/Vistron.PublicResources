@@ -4,6 +4,8 @@ This site is hosted via GithubPages and contains public resources for use at Vis
 The index.md replaces the README.md for this repository.
 
 ## Markdown
+Source of Github themed markdown .css can be found at https://github.com/sindresorhus/github-markdown-css.<br/><br/>
+
 Link to a working [VistronMarkdown.css](VistronMarkdown.css) used for markdown documents at Vistron.<br/>
 
 # GitHub Pages basics

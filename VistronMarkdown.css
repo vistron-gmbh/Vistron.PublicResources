@@ -1,12 +1,14 @@
-/* v0.1.0, 17.05.2022, TF */
+/* @import "GithubMarkdownDark.css"; */
+@import url("https://vistron-gmbh.github.io/Vistron.PublicResources/GithubMarkdownDark.css");
 
-@import "https://vistron-gmbh.github.io/Vistron.PublicResources/dark-dark_high_contrast.css";
+var {
+    color: purple;
+}
 
-indent{    
-    /* simple indentation for html */
+indent {
     margin-left: 20px;
 }
-remark{
-    /* style for important remarks */
-    color:orange;
+
+remark {
+    color: orange;
 }
