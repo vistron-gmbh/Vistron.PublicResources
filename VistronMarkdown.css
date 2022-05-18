@@ -1,6 +1,0 @@
-/* This css combines the Dark Github theme with the customized parts for Vistron. */
-/* v0.1.0, 18.05.2022, TF */
-
-/* This css contains a fully themed styles for markdowns in addition to the custom tags and styles from VistronMarkDownCore. */
-@import url("https://vistron-gmbh.github.io/Vistron.PublicResources/GithubMarkdownDark.css");
-@import url("https://vistron-gmbh.github.io/Vistron.PublicResources/VistronMarkdownCore.css");
