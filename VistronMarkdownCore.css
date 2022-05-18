@@ -3,18 +3,22 @@
 /* v0.1.0, 18.05.2022, TF */
 
 /* This css is split up from VistronMarkdown.css to use in vs codes Preview, since it is better to not include themes into the preview */
-variable {
+var {
+    /* Style to show that the contained element is a variable or a variing value */
     color: purple;
 }
 
 indent {
+    /* simple indentation for use in markdown */
     margin-left: 20px;
 }
 
 remark {
+    /* Style to hightlite an important remark */
     color: orange;
 }
 
-directory {
+dir {
+    /* Style to hightlight that the contained element is a directory */
     color: beige;
 }
