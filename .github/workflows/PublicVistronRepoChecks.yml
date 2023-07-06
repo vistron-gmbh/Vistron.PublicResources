@@ -21,7 +21,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: DebugBuild
-      run: dotnet build -c Debug -v normal -nowarn:CS1591
+      run: dotnet build -c Debug -v normal -nowarn:CS1591 ${{ github.workspace }}/*.sln
       # CS1591 are the no xml comment warnings
 
   ReleaseBuild:
@@ -29,7 +29,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: ReleaseBuild
-      run: dotnet build -c Release -v normal -nowarn:CS1591
+      run: dotnet build -c Release -v normal -nowarn:CS1591 ${{ github.workspace }}/*.sln
       # CS1591 are the no xml comment warnings
 
   UnitTests:
@@ -37,4 +37,4 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: run UnitTests
-      run: dotnet test -c Release --no-build
+      run: dotnet test -c Release --no-build ${{ github.workspace }}/*.sln
