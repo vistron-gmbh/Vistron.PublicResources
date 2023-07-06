@@ -1,0 +1,40 @@
+# Version 0.1.0 [Jul.2023, TF]
+name: PublicVistronRepoChecks
+
+
+on:
+  # Only executed if called from a different workflow
+  workflow_call:
+
+  # allow for manual start of the test
+  workflow_dispatch:
+
+jobs:
+  Checkout:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+  DebugBuild:
+    needs: Checkout
+    runs-on: windows-latest
+    steps:
+    - name: DebugBuild
+      run: dotnet build -c Debug -v normal -nowarn:CS1591
+      # CS1591 are the no xml comment warnings
+
+  ReleaseBuild:
+    needs: DebugBuild
+    runs-on: windows-latest
+    steps:
+    - name: ReleaseBuild
+      run: dotnet build -c Release -v normal -nowarn:CS1591
+      # CS1591 are the no xml comment warnings
+
+  UnitTests:
+    needs: ReleaseBuild
+    runs-on: windows-latest
+    steps:
+    - name: run UnitTests
+      run: dotnet test -c Release --no-build
